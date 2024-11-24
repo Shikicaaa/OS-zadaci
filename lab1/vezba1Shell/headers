@@ -1,7 +1,0 @@
-==> ../dan3/main2.c <==
-#include <stdio.h>
-#include <stdlib.h>
-
-==> ../dan3/main.c <==
-#include <stdio.h>
-#include <string.h>
