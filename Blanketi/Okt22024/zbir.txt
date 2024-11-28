@@ -1,0 +1,16 @@
+t1.txt 1 kad
+t2.txt 1 sam
+t1.txt 2 bio
+t2.txt 2 mali
+t1.txt 3 znao
+t2.txt 3 sam
+t1.txt 4 svoj
+t2.txt 4 pravac
+t1.txt 5 oni
+t2.txt 5 bili
+t1.txt 6 katolici
+t2.txt 6 a
+t1.txt 7 ja
+t2.txt 7 pravoslavac
+t1.txt 8 ja
+t2.txt 8 pravoslavac
