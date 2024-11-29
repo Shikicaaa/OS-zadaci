@@ -12,9 +12,10 @@ int main(int argc, char * argv[]){
         FILE * f = fopen(argv[1], "r");
         char c;
         int count = 1;
-        while(!feof(f) && c <= 1000){
+        while(!feof(f) && count <= 1000){
             c = fgetc(f);
             write(pd[1],&c,1);
+            count++;
         }
         close(pd[1]);
         fclose(f);
@@ -27,6 +28,11 @@ int main(int argc, char * argv[]){
         char novi;
         while(read(pd[0],&c,1)){
             novi = c ^ count;
+            fputc(novi,f);
+            count++;
+        }
+        while(count <= 1000){
+            novi = '\0' ^ count;
             fputc(novi,f);
             count++;
         }
